@@ -1,201 +1,122 @@
-Portfolio Website
-A modern, responsive portfolio website built with HTML, CSS, JavaScript, and PHP, showcasing projects and professional information.
+# Brian Macharia Njoki - Professional Portfolio
 
-Project Overview
-This is a fully responsive portfolio website designed to showcase professional work, skills, and projects. Built with a mobile-first approach and modern web development practices.
+Digital Forensics & Cybersecurity Consultant specializing in blockchain-secured digital evidence, social media forensics, and cybersecurity advisory.
 
-Technologies Used
-Frontend
-HTML5 - Semantic markup and structure
+## 🔍 About
 
-CSS3 - Modern styling with Flexbox/Grid
+This portfolio showcases my professional work in:
+- **Digital Forensics & Investigations** - Comprehensive digital incident investigation and evidence analysis
+- **Blockchain & Cryptocurrency Analysis** - Transaction tracing and digital asset investigation
+- **Social Media Forensics & OSINT** - Real-time evidence collection from social platforms
+- **Cybersecurity Risk Advisory** - IT security audits, compliance, and risk management
+- **Custom Forensic Tool Development** - Bespoke investigative software and secure systems
+- **Training & Capacity Building** - Professional training in digital forensics and cybersecurity
 
-JavaScript (ES6+) - Interactive functionality
+## 🚀 Featured Project: ChainForensix
 
-Responsive Design - Mobile-first approach
+ChainForensix is a blockchain-based digital forensics platform that integrates:
+- Real-time social media data capture
+- Cryptographic integrity verification
+- Immutable blockchain storage
+- Structured forensic reporting
 
-Backend & Tools
-PHP - Server-side functionality
+Built with modern full-stack technologies for legal, compliance, and research contexts.
 
-XAMPP - Local development environment
+## 💼 Professional Experience
 
-Git - Version control
+- **Nairobi City County Government** - Internal Audit Sector: IT Security Audits, Compliance Reviews, Risk Management
+- **Solo Consultancy Firm** - Founder providing digital forensics, blockchain analysis, and cybersecurity services across Kenya and East Africa
 
-GitHub - Code repository and deployment
+## 🛠️ Technology Stack
 
-Project Structure
-text
+- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
+- **Design**: Modern CSS with custom properties, responsive design, animations
+- **Forms**: Web3Forms integration for contact functionality
+- **Hosting**: GitHub Pages
+- **Fonts**: Google Fonts (Inter, Space Grotesk)
+
+## 📦 Deployment
+
+This portfolio is designed to run on GitHub Pages.
+
+### Setup Instructions
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/portfolio_site.git
+   cd portfolio_site
+   ```
+
+2. **Configure Web3Forms**
+   - Sign up at [web3forms.com](https://web3forms.com)
+   - Get your free access key
+   - Replace `YOUR_ACCESS_KEY_HERE` in `contact.html` with your actual key
+
+3. **Deploy to GitHub Pages**
+   - Push to GitHub
+   - Go to repository Settings → Pages
+   - Select branch (usually `main`) and root directory
+   - Save and wait for deployment
+
+4. **Custom Domain (Optional)**
+   - Add a `CNAME` file with your domain
+   - Configure DNS settings with your domain provider
+
+### Local Development
+
+Simply open `index.html` in your browser. For a better development experience with live reload:
+
+```bash
+# Using Python
+python -m http.server 8000
+
+# Using Node.js (http-server)
+npx http-server
+
+# Using PHP (if you have XAMPP)
+# Place in htdocs and access via localhost
+```
+
+## 📁 Project Structure
+
+```
 portfolio_site/
-├── index.html                 # Homepage
-├── about.html                 # About me page
-├── projects.html              # Projects showcase
-├── contact.php               # Contact form with PHP processing
-├── assets/                   # All static assets
+├── index.html          # Homepage
+├── about.html          # About/Professional Summary
+├── projects.html       # Projects showcase
+├── services.html       # Services offered
+├── contact.html        # Contact form
+├── assets/
 │   ├── css/
-│   │   ├── style.css         # Main stylesheet
-│   │   ├── responsive.css    # Responsive styles
-│   │   └── animations.css    # CSS animations
+│   │   └── style.css   # Main stylesheet
 │   ├── js/
-│   │   ├── main.js           # Main JavaScript functionality
-│   │   ├── animations.js     # Interactive animations
-│   │   └── form-validation.js # Form validation
-│   ├── images/
-│   │   ├── logo.png          # Site logo
-│   │   ├── hero-bg.jpg       # Hero section background
-│   │   ├── projects/         # Project screenshots
-│   │   └── icons/            # UI icons and favicons
-│   └── fonts/
-│       └── custom-fonts/     # Custom typography
-├── includes/                 # PHP includes
-│   ├── header.php           # Site header
-│   ├── footer.php           # Site footer
-│   └── config.php           # Database configuration
-├── templates/               # Reusable components
-│   ├── project-card.html    # Project display template
-│   └── skill-item.html      # Skills display template
-├── README.md               # Project documentation
-└── .gitignore             # Git ignore rules
-⚙️ Setup Instructions
-Prerequisites
-XAMPP (Apache + PHP)
+│   │   └── script.js   # JavaScript functionality
+│   └── images/         # Image assets
+├── README.md           # This file
+└── .gitignore         # Git ignore file
+```
 
-Web browser
+## ✨ Features
 
-Code editor (VS Code recommended)
+- **Modern Design**: Professional cybersecurity/forensics theme with premium aesthetics
+- **Responsive**: Fully responsive design for mobile, tablet, and desktop
+- **Animations**: Smooth scroll animations and micro-interactions
+- **SEO Optimized**: Comprehensive meta tags and semantic HTML
+- **Accessible**: WCAG compliant with proper ARIA labels
+- **Fast**: Optimized performance with lazy loading and efficient CSS
+- **Contact Form**: Integrated Web3Forms for reliable form submissions
 
-Local Development Setup
-Install XAMPP
+## 📧 Contact
 
-Download and install XAMPP from https://www.apachefriends.org/
+- **Email**: njokibrianmacharia@gmail.com
+- **Phone**: +254 790 404023
+- **Location**: Nairobi, Kenya
 
-Start Apache server from XAMPP Control Panel
+## 📄 License
 
-Project Setup
+© 2026 Brian Macharia Njoki. All rights reserved.
 
-bash
-# Clone the repository
-git clone https://github.com/BRAYOgith/portfolio.git
+---
 
-# Navigate to project directory
-cd portfolio_site
+**Note**: This portfolio is designed for GitHub Pages deployment. All paths are relative and the site is fully static (no server-side processing required).
 
-# Place in XAMPP htdocs folder
-C:\xampp\htdocs\portfolio_site\
-Access the Website
-
-Open browser and navigate to: http://localhost/portfolio_site
-
-GitHub Deployment
-bash
-# Initialize Git repository
-git init
-
-# Add project files
-git add index.html about.html projects.html contact.php
-git add assets/ includes/ templates/
-
-# Initial commit
-git commit -m "Initial portfolio website commit"
-
-# Connect to GitHub
-git remote add origin https://github.com/BRAYOgith/portfolio.git
-
-# Rename branch to main
-git branch -M main
-
-# Push to GitHub
-git push -u origin main
-Features
-Core Features
-Fully responsive design
-
-Modern UI/UX with smooth animations
-
-Contact form with PHP backend
-
-Project showcase gallery
-
-Skills and experience sections
-
-Cross-browser compatibility
-
-Technical Features
-Semantic HTML5 markup
-
-CSS3 with Flexbox/Grid layouts
-
-Vanilla JavaScript ES6+
-
-PHP form handling
-
-Mobile-first responsive design
-
-Optimized images and assets
-
-Responsive Breakpoints
-Mobile: < 768px
-
-Tablet: 768px - 1024px
-
-Desktop: > 1024px
-
-Customization
-Adding New Projects
-Edit projects.html and add project entries in the projects section:
-
-html
-<div class="project-card">
-    <img src="assets/images/projects/new-project.jpg" alt="New Project">
-    <h3>Project Title</h3>
-    <p>Project description</p>
-    <div class="tech-stack">
-        <span>HTML</span>
-        <span>CSS</span>
-        <span>JavaScript</span>
-    </div>
-</div>
-Modifying Styles
-Main styles: assets/css/style.css
-
-Responsive styles: assets/css/responsive.css
-
-Animations: assets/css/animations.css
-
-Updating Contact Form
-Edit contact.php to modify form fields or processing logic.
-
-Browser Support
-Chrome (latest)
-
-Firefox (latest)
-
-Safari (latest)
-
-Edge (latest)
-
-Contact & Support
-For questions or support:
-
-Email: njokibrianmacharia@gmail.com
-
-GitHub: BRAYOgith
-
-Portfolio: http://localhost/portfolio_site
-
-License
-This project is open source and available under the MIT License.
-
-Future Enhancements
-Database integration for projects
-
-Blog section
-
-Dark mode toggle
-
-Multi-language support
-
-PWA capabilities
-
-SEO optimization
-
-Developed with ❤️ using modern web technologies
